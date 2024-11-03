@@ -86,3 +86,39 @@ transform: rotateY(0deg);
 .boxMatch::after{
  transform: rotateY(180deg);
 }
+
+/* Responsividade para dispositivos menores */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px 30px;
+        gap: 20px;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    .reset {
+        font-size: 1.2em;
+    }
+
+    
+    }
+
+   
+/* Ajuste para o tabuleiro e as cartas em telas menores */
+    .game {
+        
+       
+width: 280px;
+        height: 280px;
+        
+ 
+gap: 5px;
+    }
+
+    .item {
+        width: 60px;
+        height: 60px;
+        font-size: 1.5em;
+    }
